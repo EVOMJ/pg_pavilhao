@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pavilhão 9 - Gaviões da Fiel</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+
+<body>
+    <!-- Menu de navegação em abas -->
+    <nav class="navbar">
+        <div class="logo">Pavilhão 9</div>
+        <ul class="nav-links">
+            <li><a href="#" onclick="openTab('jogos')">Jogos</a></li>
+            <li><a href="#" onclick="openTab('musicas')">Músicas</a></li>
+            <li><a href="#" onclick="openTab('sobre')">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdos das abas -->
+    <section id="jogos" class="tab-content active">
+        <h2>🗓️ Próximos Jogos do Corinthians</h2>
+        <table class="tabela-jogos">
+            <tr>
+                <th>Data</th>
+                <th>Partida</th>
+                <th>Local</th>
+            </tr>
+            <tr>
+                <td>15/08</td>
+                <td>Corinthians x Palmeiras</td>
+                <td>Arena Corinthians</td>
+            </tr>
+            <tr>
+                <td>20/08</td>
+                <td>Santos x Corinthians</td>
+                <td>Vila Belmiro</td>
+            </tr>
+            <tr>
+                <td>27/08</td>
+                <td>Corinthians x São Paulo</td>
+                <td>Arena Corinthians</td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="musicas" class="tab-content">
+        <h2>🎶 Músicas da Gaviões da Fiel</h2>
+
+        <div class="musica">
+            <p><strong>Sou Gaviões até morrer</strong></p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/artist/7KrOT4F3Ad6is32YrODNht?utm_source=generator" width="80%"
+                height="152" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="musica">
+            <p><strong>Aqui tem um bando de louco</strong></p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/5dGUhngmuWILrOFubZgWOW?utm_source=generator" width="80%"
+                height="80" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="musica">
+            <p><strong>Vai Corinthians, minha vida é você</strong></p>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/0XaqrWReqG9M3UL0zirwjo?utm_source=generator" width="80%"
+                height="80" frameborder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+
+    <section id="sobre" class="tab-content">
+        <h2>📢 Sobre o Pavilhão 9</h2>
+        <p>
+            O Pavilhão 9 é mais do que uma torcida, é uma irmandade de corinthianos raiz, que vivem a paixão pelo
+            Corinthians no ritmo das arquibancadas e na batida do coração.
+        </p>
+        <p>
+            Aqui você encontra tudo que representa a alma alvinegra: músicas, agenda dos jogos e o espírito da Gaviões
+            da Fiel.
+            O texto aqui apresentado trata de pesquisa de doutorado em andamento em que analisamos as
+            chacinas em São Paulo e Região Metropolitana, de modo a entender a historicidade dessa forma
+            de conflitualidade, os modus operandi, a vitimização e os agentes executores. A questão central
+            da pesquisa debate se as chacinas que contém letalidade policial podem ser consideradas formas
+            de gestão das populações (Foucault, 2008) ou podem considerar algumas vidas como matáveis
+            (Aganbem, 2007) ao atuarem nos territórios pelas margens do Estado (Das e Poole, 2008).
+            Desse modo, para além de traçarmos essa historicidade e como forma de entendermos de modo
+            mais aprofundado as inter-relações que operam uma chacina, nos debruçamos, também, na
+            análise de uma chacina específica, a Chacina da Torcida Pavilhão 9, ocorrida em 18 de abril de
+            2015, na quadra da referida torcida organizada, vitimando 8 torcedores e efetuada por policiais
+            militares e um ex policial militar.
+            Palavras-chave: Chacinas, Torcida Organizada Pavilhão 9; Letalidade Policial; Territórios.
+        </p>
+    </section>
+    <button onclick="window.location.href='/sair'"
+        style="padding: 10px 20px; background: rgb(0, 0, 0); color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Sair
+    </button>

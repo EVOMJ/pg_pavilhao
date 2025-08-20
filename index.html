@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Pavilhão 9</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+<div id="spotify-player" style="display:none; margin-top:20px; text-align:center;">
+    <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/3Z3JpUmc6JG16hQzNcoHvh?utm_source=generator" width="50%" height="152"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+</div>
+
+<body>
+    <div class="login-container">
+
+        <img src="static\image\SCCP_escudo-150px.png">
+        <h1>Pavilhão 9 - Gaviões da Fiel🦅</h1>
+        <form onsubmit="return login()" class="login-form">
+            <input type="email" id="email" placeholder="Gmail" required>
+            <input type="text" id="usuario" placeholder="Usuário" required>
+            <input type="password" id="senha" placeholder="Senha" required>
+            <button type="submit" onclick="showPlayer()">Entrar</button>
+        </form>
+    </div>
+    <script src="static\script.js"></script>
+</body>
+<script>
+    function showPlayer() {
+        document.getElementById("spotify-player").style.display = "block";
+    }
+</script>
+<footer>
+    <p>&copy; 2025 Pavilhão 9 - Todos os direitos reservados</p>
+</footer>
+
+
+</html>
