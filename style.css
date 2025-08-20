@@ -1,0 +1,275 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.login-form input,
+.login-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-form button {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #ccc;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.jogos,
+.musicas {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: gray;
+}
+
+/* Cabeçalho */
+.header {
+    padding: 60px 20px;
+    text-align: center;
+    background: #3027272d;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #cccccca4;
+}
+
+/* Seções */
+.section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Tabela de Jogos */
+.tabela-jogos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tabela-jogos th,
+.tabela-jogos td {
+    border: 1px solid rgba(184, 24, 24, 0.445);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Músicas */
+.musica {
+    margin-bottom: 20px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Sobre */
+#sobre p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer {
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid white;
+}
+
+/* escudo  */
+
+/* fundo do site inteiro */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* centraliza o login */
+.login-container {
+    background: rgba(0, 0, 0, 0.6);
+    /* fundo preto transparente */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+    margin: auto;
+    /* centraliza na tela */
+    text-align: center;
+}
+
+/* rodapé */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.9);
+    /* fundo preto */
+    overflow: hidden;
+}
+
+/* imagem dentro do rodapé */
+footer .rodape-bg img {
+    width: 100%;
+    display: block;
+    opacity: 0.7;
+    /* deixa a imagem mais suave */
+}
+
+footer p {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+/* eu */
+footer {
+    margin-top: auto;
+    /* faz o rodapé ficar colado ao fim */
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: black;
+    position: relative;
+    overflow: hidden;
+}
+
+/* imagem de fundo centralizada */
+footer .rodape-bg {
+    display: flex;
+    justify-content: center;
+    /* centraliza horizontalmente */
+    align-items: center;
+}
+
+footer .rodape-bg img {
+    width: auto;
+    /* mantém proporção */
+    height: 120px;
+    /* ajusta altura */
+    opacity: 0.8;
+    /* deixa a imagem suave */
+}
+
+/* texto do rodapé */
+footer p {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* centraliza certinho */
+    color: rgba(255, 255, 255, 0.438);
+    font-size: 14px;
+}
+
+/* css */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    /* Imagem de fundo */
+    background: url("Apresentação Básica Simples Manchas Pastel (2).png") no-repeat center center fixed;
+    background-size: cover;
+    /* cobre toda a tela */
+    background-attachment: fixed;
+    /* mantém fixo ao rolar */
+    background-color: #000;
+    /* fallback caso a imagem não carregue */
+}
+
+/* Deixa o conteúdo legível em cima da imagem */
+.conteudo,
+.tab-content {
+    background: rgba(0, 0, 0, 0.699);
+    /* fundo preto transparente */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    color: white;
+}
+
+/* sair */
