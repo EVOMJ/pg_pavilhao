@@ -4,7 +4,7 @@ function login() {
     const senha = document.getElementById('senha').value;
 
     if (email.includes("@gmail.com") && usuario.length > 2 && senha.length >= 4) {
-        window.location.href = "home";
+        window.location.href = "homi.html";
         return false;
     } else {
         alert("Dados inválidos. Verifique seu Gmail, usuário e senha.");
@@ -17,7 +17,7 @@ function login() {
     const senha = document.getElementById('senha').value;
 
     if (email.includes("@gmail.com") && usuario.length > 2 && senha.length >= 4) {
-        window.location.href = "home";
+        window.location.href = "homi.html";
         return false;
     } else {
         alert("Dados inválidos. Verifique seu Gmail, usuário e senha.");
@@ -25,3 +25,4 @@ function login() {
     }
 
 }
+
